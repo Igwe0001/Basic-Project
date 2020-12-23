@@ -14,7 +14,7 @@ body {
      url(images/bg-pattern-bottom.svg);
     background-repeat: no-repeat;
     background-size: 700px;
-    background-position: right calc(50vw + 15%) bottom calc(50vh - 15vw),
+    background-position:right calc(50vw + 15%) bottom calc(50vh - 15vw),
     left calc(40vw + 25%) top calc(70vh - 10vw);
    
 }
@@ -32,8 +32,7 @@ body {
 
 
 .box {
-    border: 1px solid green;
-    width: 92%;
+ width: 92%;
     height: 100%;
     background-color: white;
     margin: 0 auto;
