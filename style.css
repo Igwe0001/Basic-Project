@@ -5,7 +5,7 @@
 }
 
 
-@media (min-width: 320px){
+
 body {
     background: hsl(185, 75%, 39%);
     height: 100%;
@@ -14,22 +14,30 @@ body {
      url(images/bg-pattern-bottom.svg);
     background-repeat: no-repeat;
     background-size: 700px;
-    background-position: top -350px left -450px,
-        bottom -350px right -450px;
+    background-position: right calc(50vw + 15%) bottom calc(50vh - 15vw),
+    left calc(40vw + 25%) top calc(70vh - 10vw);
+   
+}
 
-
+.container {
+    width: 85%;
+    max-width: 350px;
+    margin: 0 auto;
+  min-height: 100vh;
+    display: flex;
+     align-items: center;
+  justify-content: center;
 }
 
 
 
-
-
 .box {
-    width: 80%;
-    height: 47vh;
+    border: 1px solid green;
+    width: 92%;
+    height: 100%;
     background-color: white;
-    margin: 10em auto;
-    border-radius: 10px;
+    margin: 0 auto;
+    border-radius: 12px;
 }
 
 .empty {
@@ -63,7 +71,7 @@ body {
 .spa-2 {
     font-family: 'Kumbh Sans', sans-serif;
     color: hsl(227, 10%, 46%);
-    padding-top: .9em;
+    padding-top: .5em;
 }
 
 .bottom {
@@ -87,177 +95,14 @@ ul {
     font-weight: 700;
 }
 
-.pon {
+.pon{
     font-family: 'Kumbh Sans', sans-serif;
     color: hsl(227, 10%, 46%);
-    display: block;
     padding: .5em;
-}
-
-}
-
-@media (min-width: 481px) {
-    
-    .box {
-        width: 60%;
-    }
-    .spa-1 {
-    font-family: 'Kumbh Sans', sans-serif;
-    color: hsl(229, 23%, 23%);
-    font-weight: 700;
-    padding-top: 1.1em;
-    font-size: 1.2em
-}
-
-.twin {
-    color: hsl(227, 10%, 46%);
-}
-
-.spa-2 {
-    font-family: 'Kumbh Sans', sans-serif;
-    color: hsl(227, 10%, 46%);
-    padding-top: 1em;
-    font-size: 1.2em
-}
-
-.bottom {
-    height: 10vh;
-    border-top: 1px solid hsl(0, 0%, 59%);
-    text-align: center;
-    margin-top: .7em;
-}
-
-ul {
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-around;
-    padding-top: 1.8em;
-
-}
-
-.pin {
-    font-family: 'Kumbh Sans', sans-serif;
-    color: hsl(229, 23%, 23%);
-    font-weight: 700;
-    font-size: 1.3em
-}
-
-.pon {
-    font-family: 'Kumbh Sans', sans-serif;
-    color: hsl(227, 10%, 46%);
+    font-size: 10px;
     display: block;
-    padding: .5em;
-    font-size: 1.1em;
 }
 
-}
-
-@media (min-width: 600px) {
-    
-    .box{
-        width: 60%;
-        height: 65vh;
-        margin: 9em auto;
-    }
-    
-    .empty{
-        height: 20vh;
-    }
-    .spa-1{
-        font-size: 1.5em;
-    }
-    
-    .spa-2{
-        font-size: 1.5em;
-        padding-bottom: 1em;
-    }
-    
-    .pin{
-        font-size: 1.5em;
-    }
-    
-    .pon{
-        font-size: 1.5em;
-    }
-    
-        
-}
-
-@media screen and (min-device-width : 768px)   
-and (max-device-width : 1024px)  {
-    
-    .box {
-        width: 50%;
-    }
-    
-    body{
-          background-position: top -350px left -300px,
-        bottom -350px right -300px;
-
-    }
-       
-}
-
-@media screen and (min-width: 1025px) and
-(max-width: 1200px){
-    body{
-        background-position: top -350px left -250px,
-        bottom -350px right -250px;
-    }
-    
-    .box {
-        width: 40%;
-    }
-}
-
-@media (min-width: 1201px) {
-    body{
-        background-position: top -350px left -200px,
-        bottom -350px right -200px;
-    }
-    
-    .box{
-        width: 30%;
-        height: 58vh
-    }
-    
-    .spa-1 {
-        padding-top: .3em
-    }
-    
-    .spa-2 {
-        padding-top: .9em
-    }
-    
-    ul {
-         padding-top: 1em
-    }
-}
-
-@media (min-width: 1300px){
-    body{
-        background-position: top -300px left -80px,
-        bottom -300px right -80px;
-    }
-    
-    .spa-2 {
-        margin-bottom: -11px
-    }
-    
-    
-    .bottom {
-        padding-top: .5em;
-    }
-    
-    
-}
-
-@media (min-width: 1440px) {
-    body{
-         background-position: top -350px left -30px,
-        bottom -350px right -0px;
-    }
-}
 
 
 
